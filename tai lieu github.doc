@@ -1,1 +1,3 @@
-hello github
+Thay vì chỉ sử dụng một nhánh chính, quy trình này sử dụng hai nhánh để ghi lại lịch sử dự án. Nhánh chính (main) lưu trữ lịch sử release chính thức, trong khi nhánh phát triển (develop) được dùng để tích hợp các tính năng. Nó cũng thuận tiện để gán số phiên bản cho tất cả các commit trên nhánh chính.
+
+Bước đầu tiên là bổ sung nhánh develop vào nhánh chính mặc định. Một cách đơn giản để làm điều này là tạo một nhánh develop trống trên máy cục bộ và đẩy nó lên máy chủ
