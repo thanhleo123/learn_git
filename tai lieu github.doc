@@ -1,5 +1,0 @@
-Thay vì chỉ sử dụng một nhánh chính, quy trình này sử dụng hai nhánh để ghi lại lịch sử dự án. Nhánh chính (main) lưu trữ lịch sử release chính thức, trong khi nhánh phát triển (develop) được dùng để tích hợp các tính năng. Nó cũng thuận tiện để gán số phiên bản cho tất cả các commit trên nhánh chính.
-
-Bước đầu tiên là bổ sung nhánh develop vào nhánh chính mặc định. Một cách đơn giản để làm điều này là tạo một nhánh develop trống trên máy cục bộ và đẩy nó lên máy chủánh này sẽ chứa toàn bộ lịch sử của dự án, trong khi nhánh chính chỉ chứa một phiên bản rút gọn. Các lập trình viên khác bây giờ nên sao chép kho lưu trữ trung tâm và tạo một nhánh theo dõi cho nhánh develop.
-
-Khi sử dụng thư viện mở rộng git-flow, việc thực hiện lệnh git flow init trên một kho lưu trữ hiện có sẽ tạo ra nhánh develop
